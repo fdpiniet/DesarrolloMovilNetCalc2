@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xyz.fabianpineda.desarrollomovil.netcalc.MainActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_weight="1"
+        android:scrollbarStyle="insideOverlay"
+        android:id="@+id/scrollInfo">
+
+        <TextView
+            android:text="Bienvenido. Toque el resultado para borrarlo."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/informacion" />
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/resultado"
+            android:layout_alignParentEnd="true"
+            android:textSize="40sp"
+            android:fontFamily="serif-monospace"
+            android:textAlignment="textEnd"
+            android:textStyle="normal|bold"
+            android:text="0" />
+
+        <Button
+            android:text="9"
+            android:layout_height="wrap_content"
+            android:id="@+id/button33"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_marginStart="11dp"
+            android:layout_alignBaseline="@+id/button32"
+            android:layout_alignBottom="@+id/button32"
+            android:layout_toEndOf="@+id/button32"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="8"
+            android:layout_height="wrap_content"
+            android:id="@+id/button52"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_marginStart="12dp"
+            android:layout_alignBaseline="@+id/button22"
+            android:layout_alignBottom="@+id/button22"
+            android:layout_toEndOf="@+id/button22"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="8"
+            android:layout_height="wrap_content"
+            android:id="@+id/button51"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_marginStart="12dp"
+            android:layout_alignBaseline="@+id/button22"
+            android:layout_alignBottom="@+id/button22"
+            android:layout_toEndOf="@+id/button22"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="8"
+            android:layout_height="wrap_content"
+            android:id="@+id/button50"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_marginStart="12dp"
+            android:layout_alignBaseline="@+id/button22"
+            android:layout_alignBottom="@+id/button22"
+            android:layout_toEndOf="@+id/button22"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="/"
+            android:layout_height="wrap_content"
+            android:id="@+id/button35"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_alignBaseline="@+id/button33"
+            android:layout_alignBottom="@+id/button33"
+            android:layout_toEndOf="@+id/button33"
+            android:layout_marginStart="11dp"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="7"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="25dp"
+            android:id="@+id/button22"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_below="@+id/resultado"
+            android:layout_alignParentStart="true"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="5"
+            android:layout_height="wrap_content"
+            android:id="@+id/button37"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_alignBaseline="@+id/button36"
+            android:layout_alignBottom="@+id/button36"
+            android:layout_alignStart="@+id/button32"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="6"
+            android:layout_height="wrap_content"
+            android:id="@+id/button38"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_alignBaseline="@+id/button37"
+            android:layout_alignBottom="@+id/button37"
+            android:layout_alignStart="@+id/button33"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="3"
+            android:layout_height="wrap_content"
+            android:id="@+id/button42"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_alignBaseline="@+id/button41"
+            android:layout_alignBottom="@+id/button41"
+            android:layout_alignStart="@+id/button38"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="7"
+            android:layout_height="wrap_content"
+            android:id="@+id/button43"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_alignBaseline="@+id/button42"
+            android:layout_alignBottom="@+id/button42"
+            android:layout_alignStart="@+id/button39"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="7"
+            android:layout_height="wrap_content"
+            android:id="@+id/button30"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_alignBaseline="@+id/button44"
+            android:layout_alignBottom="@+id/button44"
+            android:layout_alignStart="@+id/button41"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="."
+            android:layout_height="wrap_content"
+            android:id="@+id/button46"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_alignBaseline="@+id/button44"
+            android:layout_alignBottom="@+id/button44"
+            android:layout_alignStart="@+id/button41"
+            android:onClick="botonPresionado "/>
+
+        <Button
+            android:text="="
+            android:layout_height="wrap_content"
+            android:id="@+id/button47"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_alignBaseline="@+id/button30"
+            android:layout_alignBottom="@+id/button30"
+            android:layout_alignStart="@+id/button42"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="+"
+            android:layout_height="wrap_content"
+            android:id="@+id/button45"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_alignBaseline="@+id/button47"
+            android:layout_alignBottom="@+id/button47"
+            android:layout_alignStart="@+id/button43"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="8"
+            android:layout_height="wrap_content"
+            android:id="@+id/button32"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_marginStart="12dp"
+            android:layout_alignBaseline="@+id/button22"
+            android:layout_alignBottom="@+id/button22"
+            android:layout_toEndOf="@+id/button22"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="7"
+            android:layout_height="wrap_content"
+            android:id="@+id/button49"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_above="@+id/button36"
+            android:layout_alignStart="@+id/button22"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="7"
+            android:layout_height="wrap_content"
+            android:id="@+id/button48"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_above="@+id/button36"
+            android:layout_alignStart="@+id/button22"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="2"
+            android:layout_height="wrap_content"
+            android:id="@+id/button41"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_alignBaseline="@+id/button40"
+            android:layout_alignBottom="@+id/button40"
+            android:layout_alignStart="@+id/button37"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="0"
+            android:layout_height="wrap_content"
+            android:id="@+id/button44"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_marginTop="34dp"
+            android:layout_below="@+id/button40"
+            android:layout_alignStart="@+id/button40"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="7"
+            android:layout_height="wrap_content"
+            android:id="@+id/button34"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_above="@+id/button36"
+            android:layout_alignStart="@+id/button22"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="4"
+            android:layout_height="wrap_content"
+            android:id="@+id/button36"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_marginTop="31dp"
+            android:layout_below="@+id/button22"
+            android:layout_alignStart="@+id/button22"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/button40"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_marginTop="31dp"
+            android:layout_below="@+id/button36"
+            android:layout_alignStart="@+id/button36"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="-"
+            android:layout_height="wrap_content"
+            android:id="@+id/button39"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_alignBaseline="@+id/button38"
+            android:layout_alignBottom="@+id/button38"
+            android:layout_alignStart="@+id/button35"
+            android:onClick="botonPresionado" />
+    </RelativeLayout>
+
+</LinearLayout>
