@@ -71,3 +71,7 @@ Otros detalles:
     - Usar el mismo comando **curl** que usé en Android y obtengo la misma respuesta sin error. También funciona usando el hostname.
 
 Por último, haciendo un domain lookup, veo que **jairoesc.co** expiró en el año 2014. ¿Podrá tener algo que ver?
+
+Aquí el screenshot de **curl** en mi teléfono que mencioné mas arriba.
+
+![Captura de Pantalla](http://i.imgur.com/xpJchYB.png "Captura de pantalla de "curl" en celular.")
