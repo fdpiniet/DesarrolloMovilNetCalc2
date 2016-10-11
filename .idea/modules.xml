@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NetCalc.iml" filepath="$PROJECT_DIR$/NetCalc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesarrolloMovilNetCalc.iml" filepath="$PROJECT_DIR$/DesarrolloMovilNetCalc.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

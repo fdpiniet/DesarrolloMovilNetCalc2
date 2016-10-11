@@ -9,16 +9,16 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="96dp"
         android:layout_weight="1"
         android:scrollbarStyle="insideOverlay"
-        android:id="@+id/scrollInfo">
+        android:id="@+id/scrollInfo"
+        android:layout_height="96dp">
 
         <TextView
             android:text="Bienvenido. Toque el resultado para borrarlo."
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/informacion" />
+            android:id="@+id/informacion"
+            android:layout_height="wrap_content" />
     </ScrollView>
 
     <RelativeLayout
@@ -42,152 +42,173 @@
         <Button
             android:text="9"
             android:layout_height="wrap_content"
-            android:id="@+id/button33"
+            android:id="@+id/button9"
             style="@style/Widget.AppCompat.Button.Colored"
             android:textSize="32sp"
             android:layout_width="80sp"
             android:layout_marginStart="11dp"
-            android:layout_alignBaseline="@+id/button32"
-            android:layout_alignBottom="@+id/button32"
-            android:layout_toEndOf="@+id/button32"
-            android:onClick="botonPresionado" />
-
-        <Button
-            android:text="8"
-            android:layout_height="wrap_content"
-            android:id="@+id/button52"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:textSize="32sp"
-            android:layout_width="80sp"
-            android:layout_marginStart="12dp"
-            android:layout_alignBaseline="@+id/button22"
-            android:layout_alignBottom="@+id/button22"
-            android:layout_toEndOf="@+id/button22"
-            android:onClick="botonPresionado" />
-
-        <Button
-            android:text="8"
-            android:layout_height="wrap_content"
-            android:id="@+id/button51"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:textSize="32sp"
-            android:layout_width="80sp"
-            android:layout_marginStart="12dp"
-            android:layout_alignBaseline="@+id/button22"
-            android:layout_alignBottom="@+id/button22"
-            android:layout_toEndOf="@+id/button22"
-            android:onClick="botonPresionado" />
-
-        <Button
-            android:text="8"
-            android:layout_height="wrap_content"
-            android:id="@+id/button50"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:textSize="32sp"
-            android:layout_width="80sp"
-            android:layout_marginStart="12dp"
-            android:layout_alignBaseline="@+id/button22"
-            android:layout_alignBottom="@+id/button22"
-            android:layout_toEndOf="@+id/button22"
+            android:layout_alignBaseline="@+id/button8"
+            android:layout_alignBottom="@+id/button8"
+            android:layout_toEndOf="@+id/button8"
             android:onClick="botonPresionado" />
 
         <Button
             android:text="/"
             android:layout_height="wrap_content"
-            android:id="@+id/button35"
+            android:id="@+id/buttonDivision"
             style="@style/Widget.AppCompat.Button.Colored"
             android:textSize="32sp"
             android:layout_width="80sp"
-            android:layout_alignBaseline="@+id/button33"
-            android:layout_alignBottom="@+id/button33"
-            android:layout_toEndOf="@+id/button33"
+            android:layout_alignBaseline="@+id/button9"
+            android:layout_alignBottom="@+id/button9"
+            android:layout_toEndOf="@+id/button9"
             android:layout_marginStart="11dp"
-            android:onClick="botonPresionado" />
-
-        <Button
-            android:text="7"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="14dp"
-            android:layout_marginTop="25dp"
-            android:id="@+id/button22"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:textSize="32sp"
-            android:layout_width="80sp"
-            android:layout_below="@+id/resultado"
-            android:layout_alignParentStart="true"
             android:onClick="botonPresionado" />
 
         <Button
             android:text="5"
             android:layout_height="wrap_content"
-            android:id="@+id/button37"
+            android:id="@+id/button5"
             style="@style/Widget.AppCompat.Button.Colored"
             android:textSize="32sp"
             android:layout_width="80sp"
-            android:layout_alignBaseline="@+id/button36"
-            android:layout_alignBottom="@+id/button36"
-            android:layout_alignStart="@+id/button32"
+            android:layout_alignBaseline="@+id/button4"
+            android:layout_alignBottom="@+id/button4"
+            android:layout_alignStart="@+id/button8"
             android:onClick="botonPresionado" />
 
         <Button
             android:text="6"
             android:layout_height="wrap_content"
-            android:id="@+id/button38"
+            android:id="@+id/button6"
             style="@style/Widget.AppCompat.Button.Colored"
             android:textSize="32sp"
             android:layout_width="80sp"
-            android:layout_alignBaseline="@+id/button37"
-            android:layout_alignBottom="@+id/button37"
-            android:layout_alignStart="@+id/button33"
+            android:layout_alignBaseline="@+id/button5"
+            android:layout_alignBottom="@+id/button5"
+            android:layout_alignStart="@+id/button9"
             android:onClick="botonPresionado" />
 
         <Button
             android:text="3"
             android:layout_height="wrap_content"
-            android:id="@+id/button42"
+            android:id="@+id/button3"
             style="@style/Widget.AppCompat.Button.Colored"
             android:textSize="32sp"
             android:layout_width="80sp"
-            android:layout_alignBaseline="@+id/button41"
-            android:layout_alignBottom="@+id/button41"
-            android:layout_alignStart="@+id/button38"
+            android:layout_alignBaseline="@+id/button2"
+            android:layout_alignBottom="@+id/button2"
+            android:layout_alignStart="@+id/button6"
             android:onClick="botonPresionado" />
 
         <Button
-            android:text="7"
+            android:text="x"
             android:layout_height="wrap_content"
-            android:id="@+id/button43"
+            android:id="@+id/buttonMultiplicacion"
             style="@style/Widget.AppCompat.Button.Colored"
             android:textSize="32sp"
             android:layout_width="80sp"
-            android:layout_alignBaseline="@+id/button42"
-            android:layout_alignBottom="@+id/button42"
-            android:layout_alignStart="@+id/button39"
-            android:onClick="botonPresionado" />
-
-        <Button
-            android:text="7"
-            android:layout_height="wrap_content"
-            android:id="@+id/button30"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:textSize="32sp"
-            android:layout_width="80sp"
-            android:layout_alignBaseline="@+id/button44"
-            android:layout_alignBottom="@+id/button44"
-            android:layout_alignStart="@+id/button41"
+            android:layout_alignBaseline="@+id/button3"
+            android:layout_alignBottom="@+id/button3"
+            android:layout_alignStart="@+id/buttonResta"
             android:onClick="botonPresionado" />
 
         <Button
             android:text="."
             android:layout_height="wrap_content"
-            android:id="@+id/button46"
+            android:id="@+id/buttonPuntoDecimal"
             style="@style/Widget.AppCompat.Button.Colored"
             android:textSize="32sp"
             android:layout_width="80sp"
-            android:layout_alignBaseline="@+id/button44"
-            android:layout_alignBottom="@+id/button44"
-            android:layout_alignStart="@+id/button41"
-            android:onClick="botonPresionado "/>
+            android:layout_alignBaseline="@+id/button0"
+            android:layout_alignBottom="@+id/button0"
+            android:layout_alignStart="@+id/button2"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="+"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSuma"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_alignBaseline="@+id/button47"
+            android:layout_alignBottom="@+id/button47"
+            android:layout_alignStart="@+id/buttonMultiplicacion"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="8"
+            android:layout_height="wrap_content"
+            android:id="@+id/button8"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_marginStart="12dp"
+            android:layout_alignBaseline="@+id/button7"
+            android:layout_alignBottom="@+id/button7"
+            android:layout_toEndOf="@+id/button7"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="2"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_alignBaseline="@+id/button1"
+            android:layout_alignBottom="@+id/button1"
+            android:layout_alignStart="@+id/button5"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="0"
+            android:layout_height="wrap_content"
+            android:id="@+id/button0"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_marginTop="34dp"
+            android:layout_below="@+id/button1"
+            android:layout_alignStart="@+id/button1"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="4"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_marginTop="31dp"
+            android:layout_below="@+id/button7"
+            android:layout_alignStart="@+id/button7"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_marginTop="31dp"
+            android:layout_below="@+id/button4"
+            android:layout_alignStart="@+id/button4"
+            android:onClick="botonPresionado" />
+
+        <Button
+            android:text="-"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonResta"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="32sp"
+            android:layout_width="80sp"
+            android:layout_alignBaseline="@+id/button6"
+            android:layout_alignBottom="@+id/button6"
+            android:layout_alignStart="@+id/buttonDivision"
+            android:onClick="botonPresionado" />
 
         <Button
             android:text="="
@@ -196,128 +217,22 @@
             style="@style/Widget.AppCompat.Button.Colored"
             android:textSize="32sp"
             android:layout_width="80sp"
-            android:layout_alignBaseline="@+id/button30"
-            android:layout_alignBottom="@+id/button30"
-            android:layout_alignStart="@+id/button42"
-            android:onClick="botonPresionado" />
-
-        <Button
-            android:text="+"
-            android:layout_height="wrap_content"
-            android:id="@+id/button45"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:textSize="32sp"
-            android:layout_width="80sp"
-            android:layout_alignBaseline="@+id/button47"
-            android:layout_alignBottom="@+id/button47"
-            android:layout_alignStart="@+id/button43"
-            android:onClick="botonPresionado" />
-
-        <Button
-            android:text="8"
-            android:layout_height="wrap_content"
-            android:id="@+id/button32"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:textSize="32sp"
-            android:layout_width="80sp"
-            android:layout_marginStart="12dp"
-            android:layout_alignBaseline="@+id/button22"
-            android:layout_alignBottom="@+id/button22"
-            android:layout_toEndOf="@+id/button22"
+            android:layout_alignBaseline="@+id/buttonPuntoDecimal"
+            android:layout_alignBottom="@+id/buttonPuntoDecimal"
+            android:layout_alignStart="@+id/button3"
             android:onClick="botonPresionado" />
 
         <Button
             android:text="7"
             android:layout_height="wrap_content"
-            android:id="@+id/button49"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="28dp"
+            android:id="@+id/button7"
             style="@style/Widget.AppCompat.Button.Colored"
             android:textSize="32sp"
             android:layout_width="80sp"
-            android:layout_above="@+id/button36"
-            android:layout_alignStart="@+id/button22"
-            android:onClick="botonPresionado" />
-
-        <Button
-            android:text="7"
-            android:layout_height="wrap_content"
-            android:id="@+id/button48"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:textSize="32sp"
-            android:layout_width="80sp"
-            android:layout_above="@+id/button36"
-            android:layout_alignStart="@+id/button22"
-            android:onClick="botonPresionado" />
-
-        <Button
-            android:text="2"
-            android:layout_height="wrap_content"
-            android:id="@+id/button41"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:textSize="32sp"
-            android:layout_width="80sp"
-            android:layout_alignBaseline="@+id/button40"
-            android:layout_alignBottom="@+id/button40"
-            android:layout_alignStart="@+id/button37"
-            android:onClick="botonPresionado" />
-
-        <Button
-            android:text="0"
-            android:layout_height="wrap_content"
-            android:id="@+id/button44"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:textSize="32sp"
-            android:layout_width="80sp"
-            android:layout_marginTop="34dp"
-            android:layout_below="@+id/button40"
-            android:layout_alignStart="@+id/button40"
-            android:onClick="botonPresionado" />
-
-        <Button
-            android:text="7"
-            android:layout_height="wrap_content"
-            android:id="@+id/button34"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:textSize="32sp"
-            android:layout_width="80sp"
-            android:layout_above="@+id/button36"
-            android:layout_alignStart="@+id/button22"
-            android:onClick="botonPresionado" />
-
-        <Button
-            android:text="4"
-            android:layout_height="wrap_content"
-            android:id="@+id/button36"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:textSize="32sp"
-            android:layout_width="80sp"
-            android:layout_marginTop="31dp"
-            android:layout_below="@+id/button22"
-            android:layout_alignStart="@+id/button22"
-            android:onClick="botonPresionado" />
-
-        <Button
-            android:text="1"
-            android:layout_height="wrap_content"
-            android:id="@+id/button40"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:textSize="32sp"
-            android:layout_width="80sp"
-            android:layout_marginTop="31dp"
-            android:layout_below="@+id/button36"
-            android:layout_alignStart="@+id/button36"
-            android:onClick="botonPresionado" />
-
-        <Button
-            android:text="-"
-            android:layout_height="wrap_content"
-            android:id="@+id/button39"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:textSize="32sp"
-            android:layout_width="80sp"
-            android:layout_alignBaseline="@+id/button38"
-            android:layout_alignBottom="@+id/button38"
-            android:layout_alignStart="@+id/button35"
+            android:layout_below="@+id/resultado"
+            android:layout_alignParentStart="true"
             android:onClick="botonPresionado" />
     </RelativeLayout>
-
 </LinearLayout>
